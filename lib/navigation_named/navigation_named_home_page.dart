@@ -7,8 +7,8 @@ import 'package:get_training/navigation_common/offAll/offAll_home_page.dart';
 import 'package:get_training/navigation_common/send_params/send_params_home_page.dart';
 import 'package:get_training/navigation_common/to/to_home_page.dart';
 
-class NavigationCommonHomePage extends StatelessWidget {
-  const NavigationCommonHomePage({Key? key}) : super(key: key);
+class NavigationNamedHomePage extends StatelessWidget {
+  const NavigationNamedHomePage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
