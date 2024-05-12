@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_training/navigation_named/navigation_named_home_page.dart';
+import 'package:get_training/navigation_named/page/inicial_page1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +22,11 @@ class MyApp extends StatelessWidget {
         GetPage(
           name: "/",
           page: () => const NavigationNamedHomePage(),
-        )
+        ),
+        GetPage(
+          name: "/inicial/page1",
+          page: () => const InicialPage1(),
+        ),
       ],
       // home: const NavigationCommonHomePage(),
     );
