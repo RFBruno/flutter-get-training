@@ -23,6 +23,15 @@ class NavigationNamedHomePage extends StatelessWidget {
             const SizedBox(
               height: 10,
             ),
+            ElevatedButton(
+              onPressed: () {
+                Get.toNamed("/pagina-nao-encontrada");
+              },
+              child: const Text("Pagina inexistente"),
+            ),
+            const SizedBox(
+              height: 10,
+            ),
           ],
         ),
       ),
